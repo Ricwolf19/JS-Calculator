@@ -10,32 +10,32 @@
 </head>
 
 <body>
-    <h1>Calculadora Curso Javascript</h1>
-    <h2>Por Ricardo Tapia</h2>
-    <div class="calculadora">
-        <input type="text" id="pantalla" readonly>
+    <h1>JS - CALCULATOR</h1>
+    <h2>By Ricardo Tapia</h2>
+    <div class="calculator">
+        <input type="text" id="display" readonly> <!--Readonly is for you can't write in the display manually-->
         <br>
-        <input type="button" value="1">
-        <input type="button" value="2">
-        <input type="button" value="3">
-        <input type="button" value="+">
+        <input type="button" value="1" onclick="add('1')">
+        <input type="button" value="2" onclick="add('2')">
+        <input type="button" value="3" onclick="add('3')">
+        <input type="button" value="+" onclick="add('+')">
         <br>
-        <input type="button" value="4">
-        <input type="button" value="5">
-        <input type="button" value="6">
-        <input type="button" value="-">
+        <input type="button" value="4" onclick="add('4')">
+        <input type="button" value="5" onclick="add('5')">
+        <input type="button" value="6" onclick="add('6')">
+        <input type="button" value="-" onclick="add('-')">
         <br>
-        <input type="button" value="7">
-        <input type="button" value="8">
-        <input type="button" value="9">
-        <input type="button" value="*">
+        <input type="button" value="7" onclick="add('7')">
+        <input type="button" value="8" onclick="add('8')">
+        <input type="button" value="9" onclick="add('9')">
+        <input type="button" value="*" onclick="add('*')">
         <br>
-        <input type="button" value="0">
-        <input type="button" value=".">
-        <input type="button" value="/">
-        <input type="button" value="=">
+        <input type="button" value="0" onclick="add('0')">
+        <input type="button" value="." onclick="add('.')">
+        <input type="button" value="/" onclick="add('/')">
+        <input type="button" value="=" onclick="equal()">
         <br>
-        <input type="button" value="C">
+        <input type="button" value="C" onclick="del()">
     </div>
 
     <script src="script.js"></script>
