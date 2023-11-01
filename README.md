@@ -3,5 +3,5 @@
 
 ## Preview
 <div align="center">
-  <img src="Video/Preview.gif" alt="Descripción opcional" style="width: 150px; height: 150px;">
+  <img src="Video/Preview.gif" alt="Preview" style="width: 150px; height: 150px;">
 </div>
